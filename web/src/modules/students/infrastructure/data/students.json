@@ -1,0 +1,15 @@
+[
+  { "id": "student-001", "fullName": "Ana Exemplo", "occupation": "Desenvolvedora de Software", "completionYear": 2026, "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-002", "fullName": "Bruno Exemplo", "occupation": "Desenvolvedor Front-end", "completionYear": 2026, "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-003", "fullName": "Carla Exemplo", "occupation": "Engenheira de Software", "completionYear": 2025, "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-004", "fullName": "Diego Exemplo", "occupation": "Desenvolvedor Back-end", "completionYear": 2025, "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-005", "fullName": "Elisa Exemplo", "occupation": "Analista de Sistemas", "completionYear": 2024, "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-006", "fullName": "Felipe Exemplo", "occupation": "Desenvolvedor Full-stack", "completionYear": 2024, "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-007", "fullName": "Giovana Exemplo", "occupation": "UX Engineer", "completionYear": 2023, "imageUrl": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-008", "fullName": "Heitor Exemplo", "occupation": "Desenvolvedor de Software", "completionYear": 2023, "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-009", "fullName": "Isabela Exemplo", "occupation": "Cientista de Dados", "completionYear": 2022, "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-010", "fullName": "João Exemplo", "occupation": "Engenheiro de Software", "completionYear": 2022, "imageUrl": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-011", "fullName": "Larissa Exemplo", "occupation": "Desenvolvedora Front-end", "completionYear": 2021, "imageUrl": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-012", "fullName": "Marcos Exemplo", "occupation": "Desenvolvedor Back-end", "completionYear": 2020, "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85" },
+  { "id": "student-013", "fullName": "Nina Exemplo", "occupation": "Desenvolvedora Full-stack", "completionYear": 2026, "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=85" }
+]
