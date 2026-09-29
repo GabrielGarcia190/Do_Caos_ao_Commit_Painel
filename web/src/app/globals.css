@@ -1,18 +1,25 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --background: #F8F9FF;
   --foreground: #171717;
+  --primary: #0F2537; 
+  --primary-gray: #43474C;
+  --dark-blue: #162436;
 }
 
 .dark {
-  --background: #0D1C2D;
+  --background: #162436;
   --foreground: #d4e4fa;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-gray: var(--primary-gray);
+  --color-dark-blue: var(--dark-blue);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -20,13 +27,6 @@
   --font-body: "Hanken Grotesk", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
   --font-plus-jakarta: var(--font-plus-jakarta);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
