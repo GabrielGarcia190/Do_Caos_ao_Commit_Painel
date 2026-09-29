@@ -6,6 +6,7 @@ import type { Student } from "@/modules/students/domain/Student";
 import { Header } from "./Components/Header/Header";
 import { MuralHero } from "./Components/MuralHeader/Mural";
 import { StudentCard } from "./Components/StudentCard/StudentCard";
+import { Footer } from "./Components/Footer/Footer";
 
 interface StudentsResponse {
     data: Student[];
@@ -76,7 +77,7 @@ export default function Home() {
     );
 
     return (
-        <div className="flex min-h-screen w-full flex-col pt-24">
+        <div id="topo" className="flex min-h-screen w-full flex-col pt-24">
             <Header />
             <MuralHero
                 title="Mural de Alunos"
@@ -99,7 +100,7 @@ export default function Home() {
                 years={years}
             />
 
-            <main className="w-full flex-1 px-4 py-10 sm:px-6 lg:px-10 2xl:px-12">
+            <main id="alunos" className="w-full flex-1 px-4 py-10 sm:px-6 lg:px-10 2xl:px-12">
                 <div className="mb-6 flex items-end justify-between gap-4">
                     <div>
                         <p className="text-xs font-semibold uppercase tracking-[.18em] text-blue-600 dark:text-[#82C3FF]">
@@ -127,7 +128,7 @@ export default function Home() {
                         Nenhum estudante encontrado para esse ano.
                     </p>
                 ) : (
-                    <ul className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,260px),1fr))] gap-4">
+                    <ul className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,300px),1fr))] gap-4">
                         {visibleStudents.map((student) => (
                             <li key={student.id}>
                                 <StudentCard student={student} />
@@ -136,6 +137,7 @@ export default function Home() {
                     </ul>
                 )}
             </main>
+            <Footer />
         </div>
     );
 }

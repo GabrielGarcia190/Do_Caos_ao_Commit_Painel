@@ -101,7 +101,7 @@ export function MuralHero({
 
                 <div className="flex w-full min-w-0 flex-col items-start xl:w-auto xl:items-end">
 
-                    <div className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap xl:w-auto xl:gap-4">
+                    <div id="metricas" className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap xl:w-auto xl:gap-4">
 
                         {stats.map((stat) => (
                             <HeroStat
