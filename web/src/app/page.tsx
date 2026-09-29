@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { Header } from "./Components/Header/Header";
 import { GitPullRequest, Users } from "lucide-react";
 import { MuralHero } from "./Components/MuralHeader/Mural";
@@ -10,7 +9,7 @@ export default function Home() {
   const [selected, setSelected] = useState<string>("2026");
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24" >
+    <div className="flex min-h-screen w-full flex-col pt-24">
       <Header />
       <MuralHero
     title="Mural de Alunos"

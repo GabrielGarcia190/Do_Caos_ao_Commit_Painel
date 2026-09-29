@@ -58,9 +58,9 @@ export function MuralHero({
                 }}
             />
 
-            <div className="relative mx-auto flex w-full max-w-7xl flex-col justify-between gap-8 px-6 py-10 sm:px-8 lg:flex-row lg:items-start">
+            <div className="relative flex w-full flex-col justify-between gap-8 px-4 py-8 sm:px-6 sm:py-10 xl:flex-row xl:items-start lg:px-10 2xl:px-16">
 
-                <div className="max-w-[680px]">
+                <div className="w-full min-w-0 max-w-[680px]">
 
                     <div className="inline-flex items-center rounded-md border border-blue-200 bg-white px-3 py-1 shadow-sm dark:border-[#28496A] dark:bg-[#102338]">
 
@@ -99,9 +99,9 @@ export function MuralHero({
 
                 </div>
 
-                <div className="flex flex-col items-start lg:items-end">
+                <div className="flex w-full min-w-0 flex-col items-start xl:w-auto xl:items-end">
 
-                    <div className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap lg:w-auto lg:gap-4">
+                    <div className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap xl:w-auto xl:gap-4">
 
                         {stats.map((stat) => (
                             <HeroStat

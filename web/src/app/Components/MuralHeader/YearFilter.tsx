@@ -35,7 +35,7 @@ export function YearFilter({
 
                         <span
                             className={clsx(
-                                "ml-2 rounded px-1.5 py-[2px] text-[10px]",
+                                "ml-2 rounded px-1.5 py-0.5 text-[10px]",
                                 active
                                     ? "bg-blue-500"
                                     : "bg-slate-100 text-slate-500 dark:bg-[#1A2D43] dark:text-[#9CB0C4]"

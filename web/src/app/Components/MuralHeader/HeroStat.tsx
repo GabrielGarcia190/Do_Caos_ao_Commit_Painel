@@ -1,4 +1,4 @@
-import { HeroStatItem } from "./types";
+import type { HeroStatItem } from "./types";
 
 export function HeroStat({
     icon: Icon,
@@ -6,7 +6,7 @@ export function HeroStat({
     subtitle,
 }: HeroStatItem) {
     return (
-        <div className="flex min-h-[72px] w-full items-center rounded-md border border-slate-200 bg-white px-4 shadow-sm sm:w-[272px] dark:border-[#223247] dark:bg-[#0F2033]/95 dark:shadow-[inset_0_1px_0_rgba(255,255,255,.03)]">
+        <div className="flex min-h-18 w-full items-center rounded-md border border-slate-200 bg-white px-4 shadow-sm sm:w-68 dark:border-[#223247] dark:bg-[#0F2033]/95 dark:shadow-[inset_0_1px_0_rgba(255,255,255,.03)]">
 
             <div className="mr-4 flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-blue-200 bg-blue-50 dark:border-[#2a4565] dark:bg-[#123B63]">
                 <Icon
