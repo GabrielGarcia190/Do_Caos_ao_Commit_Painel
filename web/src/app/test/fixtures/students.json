@@ -1,0 +1,16 @@
+[
+  {
+    "id": "test-student-001",
+    "fullName": "Ana Silva",
+    "occupation": "Desenvolvedora de Software",
+    "completionYear": 2024,
+    "imageUrl": ""
+  },
+  {
+    "id": "test-student-002",
+    "fullName": "Bruno Souza",
+    "occupation": "Engenheiro de Software",
+    "completionYear": 2023,
+    "imageUrl": ""
+  }
+]
