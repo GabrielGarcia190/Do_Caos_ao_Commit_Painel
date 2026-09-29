@@ -12,15 +12,15 @@ const footerLinks = [
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-slate-200 bg-slate-50 dark:border-[#1c2d41] dark:bg-[#0b1826]">
-      <section aria-labelledby="contribution-title" className="bg-slate-100/80 px-4 py-8 sm:px-6 lg:px-10 2xl:px-12 dark:bg-[#081624]">
-        <div className="flex flex-col gap-6 rounded-lg border border-slate-200 bg-white p-5 shadow-sm sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5 dark:border-[#263a53] dark:bg-[#122338] dark:shadow-none">
+    <footer className="mt-auto border-t border-slate-200 bg-slate-50 dark:border-mural-border-subtle dark:bg-mural-bg-secondary">
+      <section aria-labelledby="contribution-title" className="bg-slate-100/80 px-4 py-8 sm:px-6 lg:px-10 2xl:px-12 dark:bg-mural-bg">
+        <div className="flex flex-col gap-6 rounded-lg border border-slate-200 bg-white p-5 shadow-sm sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5 dark:border-mural-border dark:bg-mural-panel dark:shadow-none">
           <div className="flex min-w-0 items-start gap-4">
-            <span className="flex size-10 shrink-0 items-center justify-center rounded-md border border-blue-200 bg-blue-50 text-blue-700 dark:border-[#2a4565] dark:bg-[#183451] dark:text-[#9ccfff]">
+            <span className="flex size-10 shrink-0 items-center justify-center rounded-md border border-blue-200 bg-blue-50 text-blue-700 dark:border-mural-border-blue dark:bg-mural-blue-surface dark:text-mural-text-blue">
               <SquareTerminal aria-hidden="true" size={19} />
             </span>
             <div>
-              <p className="text-[10px] font-semibold uppercase tracking-[.16em] text-cyan-700 dark:text-[#82c3ff]">
+              <p className="text-[10px] font-semibold uppercase tracking-[.16em] text-cyan-700 dark:text-mural-text-blue-bright">
                 Contribuição de código aberto
               </p>
               <h2 id="contribution-title" className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-100">
@@ -28,7 +28,7 @@ export function Footer() {
               </h2>
               <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-400">
                 Abra um Pull Request adicionando seu registro de formando ao arquivo{" "}
-                <code className="rounded-sm bg-blue-50 px-1.5 py-0.5 text-xs text-slate-700 dark:bg-[#0b1a2b] dark:text-slate-300">
+                <code className="rounded-sm bg-blue-50 px-1.5 py-0.5 text-xs text-slate-700 dark:bg-mural-bg-code dark:text-slate-300">
                   students.json
                 </code>
                 .
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
       </section>
 
-      <div className="border-t border-slate-200 px-4 py-7 sm:px-6 lg:px-10 lg:py-8 2xl:px-12 dark:border-[#1c2d41]">
+      <div className="border-t border-slate-200 px-4 py-7 sm:px-6 lg:px-10 lg:py-8 2xl:px-12 dark:border-mural-border-subtle">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-xl">
             <a href="#topo" className="font-plus-jakarta text-sm font-semibold text-slate-900 hover:text-blue-700 dark:text-slate-100 dark:hover:text-blue-300">

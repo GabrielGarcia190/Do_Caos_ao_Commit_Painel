@@ -103,7 +103,7 @@ export default function Home() {
             <main id="alunos" className="w-full flex-1 px-4 py-10 sm:px-6 lg:px-10 2xl:px-12">
                 <div className="mb-6 flex items-end justify-between gap-4">
                     <div>
-                        <p className="text-xs font-semibold uppercase tracking-[.18em] text-blue-600 dark:text-[#82C3FF]">
+                        <p className="text-xs font-semibold uppercase tracking-[.18em] text-blue-600 dark:text-mural-text-blue-bright">
                             Nossa comunidade
                         </p>
                         <h2 className="mt-2 text-2xl font-semibold text-slate-900 dark:text-white">
@@ -116,7 +116,7 @@ export default function Home() {
                 </div>
 
                 {isLoading ? (
-                    <p className="rounded-xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-[#28496A] dark:bg-[#102338] dark:text-slate-300">
+                    <p className="rounded-xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-mural-border-panel dark:bg-mural-panel dark:text-slate-300">
                         Carregando estudantes…
                     </p>
                 ) : error ? (
@@ -124,7 +124,7 @@ export default function Home() {
                         {error}
                     </p>
                 ) : visibleStudents.length === 0 ? (
-                    <p className="rounded-xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-[#28496A] dark:bg-[#102338] dark:text-slate-300">
+                    <p className="rounded-xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-mural-border-panel dark:bg-mural-panel dark:text-slate-300">
                         Nenhum estudante encontrado para esse ano.
                     </p>
                 ) : (

@@ -27,6 +27,53 @@
   --font-body: "Hanken Grotesk", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
   --font-plus-jakarta: var(--font-plus-jakarta);
+
+  --color-mural-bg: #081624;
+  --color-mural-bg-secondary: #0b1826;
+  --color-mural-bg-code: #0b1a2b;
+  --color-mural-bg-panel: #0f2033;
+  --color-mural-panel: #102338;
+  --color-mural-card: #101d2d;
+  --color-mural-control-bg: #122234;
+  --color-mural-control-bg-strong: #142337;
+  --color-mural-control-hover-bg: #1b3048;
+  --color-mural-blue-surface: #183451;
+  --color-mural-blue-accent: #123b63;
+  --color-mural-image-bg: #1a2a3d;
+  --color-mural-badge-bg: #14263a;
+  --color-mural-badge-alt-bg: #1a2d43;
+  --color-mural-initial-from: #19334d;
+  --color-mural-initial-to: #24384d;
+
+  --color-mural-border-subtle: #1c2d41;
+  --color-mural-border-strong: #223247;
+  --color-mural-border-dark: #16293d;
+  --color-mural-border-panel: #28496a;
+  --color-mural-border: #263a53;
+  --color-mural-border-blue: #2a4565;
+  --color-mural-border-control: #27384c;
+  --color-mural-border-control-hover: #3a5574;
+  --color-mural-border-control-strong-hover: #456282;
+  --color-mural-border-card-hover: #35516f;
+  --color-mural-border-badge: #344b65;
+  --color-mural-border-chip: #263c55;
+
+  --color-mural-text-primary: #edf2f8;
+  --color-mural-text-secondary: #94a7bc;
+  --color-mural-text-muted: #9baabd;
+  --color-mural-text-subtle: #6f8498;
+  --color-mural-text-label: #7188a2;
+  --color-mural-text-caption: #70849a;
+  --color-mural-text-blue-muted: #9cb7d3;
+  --color-mural-text-control: #c5d0dc;
+  --color-mural-text-badge-muted: #9cb0c4;
+  --color-mural-text-chip: #c4d1df;
+  --color-mural-text-initial: #a9c8e6;
+  --color-mural-text-blue: #9ccfff;
+  --color-mural-text-blue-bright: #82c3ff;
+  --color-mural-text-blue-icon: #7ec2ff;
+  --color-mural-text-badge: #a8d6ff;
+  --color-mural-text-hover: #d5e7fa;
 }
 
 body {

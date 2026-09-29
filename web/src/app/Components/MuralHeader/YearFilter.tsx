@@ -28,7 +28,7 @@ export function YearFilter({
                             "flex h-8 items-center rounded-md border px-3 text-[11px] transition-all duration-200",
                             active
                                 ? "border-blue-600 bg-blue-600 text-white shadow-sm"
-                                : "border-slate-300 bg-white text-slate-700 hover:border-blue-400 hover:bg-blue-50 dark:border-[#27384C] dark:bg-[#122234]/80 dark:text-[#C5D0DC] dark:hover:border-[#3A5574]"
+                                : "border-slate-300 bg-white text-slate-700 hover:border-blue-400 hover:bg-blue-50 dark:border-mural-border-control dark:bg-mural-control-bg/80 dark:text-mural-text-control dark:hover:border-mural-border-control-hover"
                         )}
                     >
                         <span>{year.label}</span>
@@ -38,7 +38,7 @@ export function YearFilter({
                                 "ml-2 rounded px-1.5 py-0.5 text-[10px]",
                                 active
                                     ? "bg-blue-500"
-                                    : "bg-slate-100 text-slate-500 dark:bg-[#1A2D43] dark:text-[#9CB0C4]"
+                                    : "bg-slate-100 text-slate-500 dark:bg-mural-badge-alt-bg dark:text-mural-text-badge-muted"
                             )}
                         >
                             {year.count}
