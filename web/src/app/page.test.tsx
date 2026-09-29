@@ -31,6 +31,7 @@ describe("tela do mural de estudantes", () => {
     expect(screen.getByText("Carregando estudantes…")).toBeInTheDocument();
     expect(await screen.findByRole("heading", { name: "Ana Silva" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Bruno Souza" })).toBeInTheDocument();
+    expect(screen.getByLabelText("Foto de Ana Silva indisponível")).toHaveTextContent("AS");
     expect(screen.getByText("2 alunos formados")).toBeInTheDocument();
     expect(mockFetch).toHaveBeenCalledWith("/api/students", {
       signal: expect.any(AbortSignal),
