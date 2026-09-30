@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "desktop:dev": "concurrently -k \"cross-env NEXT_DIST_DIR=.next-desktop next dev --port 3210\" \"wait-on tcp:3210 && electron desktop/main.cjs\"",
+    "desktop:build": "next build && electron-builder --win nsis",
+    "desktop:dir": "next build && electron-builder --dir",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -24,9 +27,40 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
     "jsdom": "^26.1.0",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^3.2.7"
+    "vitest": "^3.2.7",
+    "wait-on": "^9.5.1"
+  },
+  "main": "desktop/main.cjs",
+  "build": {
+    "appId": "com.caosao.commit.mural",
+    "productName": "Mural do Caos ao Commit",
+    "asar": false,
+    "files": [
+      "desktop/**/*",
+      ".next/**/*",
+      "public/**/*",
+      "src/**/*",
+      "node_modules/**/*",
+      "next.config.ts",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
   }
 }

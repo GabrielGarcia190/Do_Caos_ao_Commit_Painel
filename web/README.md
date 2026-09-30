@@ -16,6 +16,30 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Aplicativo desktop (Windows)
+
+O aplicativo Electron reutiliza as mesmas páginas e componentes Next.js. O Electron inicia o servidor local da aplicação e abre a interface em uma janela desktop; não é necessário manter o navegador aberto.
+
+Para executar em desenvolvimento:
+
+```bash
+npm run desktop:dev
+```
+
+Para gerar o instalador Windows (NSIS):
+
+```bash
+npm run desktop:build
+```
+
+O instalador será criado em `release/`. Para apenas montar a pasta descompactada do aplicativo:
+
+```bash
+npm run desktop:dir
+```
+
+O build do instalador deve ser executado no Windows. A primeira compilação pode baixar componentes do Electron e do NSIS.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

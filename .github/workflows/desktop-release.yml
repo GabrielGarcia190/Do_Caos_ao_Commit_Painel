@@ -1,0 +1,57 @@
+name: Test and release desktop installer
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+permissions:
+  contents: write
+
+jobs:
+  test-build-release:
+    name: Test, build and publish Windows installer
+    if: github.event.pull_request.merged == true
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: web
+
+    steps:
+      - name: Checkout merged commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run automated tests
+        run: npm test
+
+      - name: Build Windows installer
+        run: npm run desktop:build
+
+      - name: Publish installer on GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: desktop-v${{ github.event.pull_request.number }}-${{ github.run_number }}
+          name: Mural Desktop — PR #${{ github.event.pull_request.number }}
+          target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
+          body: |
+            Instalador Windows do Mural do Caos ao Commit.
+
+            Gerado automaticamente após a conclusão do PR #${{ github.event.pull_request.number }} em `main`, com os testes automatizados aprovados.
+          files: web/release/*.exe
+          fail_on_unmatched_files: true
+          draft: false
+          prerelease: false
