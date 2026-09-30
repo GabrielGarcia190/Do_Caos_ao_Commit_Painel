@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { ReactNode } from "react";
 import { Code2, UserRound } from "lucide-react";
 import type { Student } from "@/modules/students/domain/Student";
+import { InfoTag } from "../InfoTag/InfoTag";
 
 interface Props {
   student: Student;

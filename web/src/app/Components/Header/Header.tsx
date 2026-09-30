@@ -12,7 +12,7 @@ export function Header() {
                         Mural do Caos ao Commit
                     </p>
                     <div className="flex flex-row justify-center">
-                    <InfoTag title="comunidade" />
+                        <InfoTag title="comunidade" />
                     </div>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400">

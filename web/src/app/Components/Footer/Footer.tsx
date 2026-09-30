@@ -5,9 +5,8 @@ const pullRequestsUrl = `${repositoryUrl}/pulls`;
 
 const footerLinks = [
   { label: "Sobre o Curso", href: `${repositoryUrl}#readme` },
-  { label: "Alunos", href: "#alunos" },
-  { label: "Métricas", href: "#metricas" },
-  { label: "Repositório", href: repositoryUrl, external: true },
+  { label: "Quem Somos", href: "#alunos" },
+  { label: "Sobre o mini-curso", href: "#alunos" },
 ];
 
 export function Footer() {
@@ -58,7 +57,7 @@ export function Footer() {
             <span className="mx-2 text-slate-400 dark:text-slate-600">·</span>
             <span className="text-xs text-slate-500 dark:text-slate-400">Registro comemorativo</span>
             <p className="mt-2 text-xs leading-5 text-slate-600 dark:text-slate-400">
-              Celebrando a excelência profissional, os projetos de conclusão e as conquistas da nossa comunidade.
+              Celebrando a excelência profissional, aquelas que participaram do mini-curso e contribuíram para o projeto.
             </p>
           </div>
 

@@ -81,7 +81,7 @@ export default function Home() {
             <Header />
             <MuralHero
                 title="Mural de Alunos"
-                description="Celebrando todos os estudantes que concluíram a jornada e fazem parte da nossa história viva."
+                description="Celebrando todos os estudantes que concluíram o mini-curso e contribuiram para o projeto."
                 totalStudents={students.length}
                 selectedYear={selectedYear}
                 onYearChange={setSelectedYear}

@@ -3,11 +3,9 @@ type props = {
 }
 
 export function InfoTag({ title }: props) {
-return (
-    <div className="w-fit bg-blue-100 px-1 py-1 rounded-md flex items-center justify-center gap-2 dark:bg-dark-blue border-2 border-gray-600 ">
-            <p className="text-sm  font-semibold font-plus-jakarta text-primary-gray uppercase dark:text-gray-400">
-                {title}
-            </p>
-    </div>
-)
+    return (
+        <span className="uppercase rounded-sm border border-white/70 bg-white/95 px-2 py-1 text-[11px] font-semibold tracking-[0.08em] text-cyan-700 shadow-sm dark:border-mural-border-badge dark:bg-mural-badge-bg/95 dark:text-mural-text-badge">
+            {title}
+        </span>
+    )
 }
