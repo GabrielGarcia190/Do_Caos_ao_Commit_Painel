@@ -4,7 +4,7 @@ const repositoryUrl = "https://github.com/GabrielGarcia190/Do_Caos_ao_Commit_Pai
 const pullRequestsUrl = `${repositoryUrl}/pulls`;
 
 const footerLinks = [
-  { label: "Sobre o Curso", href: `${repositoryUrl}#readme` },
+  { label: "Sobre o Curso", href: "/sobre-curso" },
   { label: "Quem Somos", href: "/quem-somos" },
   { label: "Sobre o mini-curso", href: "/quem-somos#motivacao" },
 ];

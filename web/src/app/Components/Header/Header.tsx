@@ -8,7 +8,7 @@ export function Header() {
     const pathname = usePathname();
     const navigationLinks = [
         { title: "Alunos", href: "/#alunos", selected: pathname === "/" },
-        { title: "Sobre o Curso", href: "https://github.com/GabrielGarcia190/Do_Caos_ao_Commit_Painel#readme", external: true },
+        { title: "Sobre o Curso", href: "/sobre-curso", selected: pathname === "/sobre-curso" },
         { title: "Quem Somos", href: "/quem-somos", selected: pathname === "/quem-somos" },
         { title: "Estatísticas", href: "/#metricas", selected: false },
     ];
@@ -33,8 +33,8 @@ export function Header() {
                     <Link
                         key={link.title}
                         href={link.href}
-                        target={link.external ? "_blank" : undefined}
-                        rel={link.external ? "noreferrer" : undefined}
+                        target={"external" in link && link.external ? "_blank" : undefined}
+                        rel={"external" in link && link.external ? "noreferrer" : undefined}
                         aria-current={link.selected ? "page" : undefined}
                         className={`font-plus-jakarta rounded px-4 py-2 font-semibold ${link.selected ? "bg-primary text-white dark:bg-blue-500 dark:text-black" : "text-primary-gray hover:bg-primary hover:text-white dark:text-white dark:hover:bg-blue-500"}`}
                     >

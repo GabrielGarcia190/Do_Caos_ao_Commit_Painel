@@ -2,6 +2,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import { cleanup, render, screen, within } from "@testing-library/react";
 import { Header } from "./Components/Header/Header";
 import QuemSomosPage from "./quem-somos/page";
+import SobreCursoPage from "./sobre-curso/page";
 
 afterEach(() => {
   cleanup();
@@ -9,7 +10,7 @@ afterEach(() => {
 });
 
 describe("navegação entre páginas", () => {
-  it("aponta o menu principal para o mural e para Quem Somos", () => {
+  it("aponta o menu principal para o mural, Sobre o Curso e Quem Somos", () => {
     render(<Header />);
 
     const navigation = screen.getByRole("navigation", { name: "Navegação principal" });
@@ -20,6 +21,10 @@ describe("navegação entre páginas", () => {
     expect(within(navigation).getByRole("link", { name: "Quem Somos" })).toHaveAttribute(
       "href",
       "/quem-somos",
+    );
+    expect(within(navigation).getByRole("link", { name: "Sobre o Curso" })).toHaveAttribute(
+      "href",
+      "/sobre-curso",
     );
   });
 
@@ -38,6 +43,26 @@ describe("navegação entre páginas", () => {
     expect(within(navigation).getByRole("link", { name: "Alunos" })).toHaveAttribute(
       "href",
       "/#alunos",
+    );
+  });
+
+  it("exibe a página Sobre o Curso e seus caminhos de navegação", () => {
+    render(<SobreCursoPage />);
+
+    expect(
+      screen.getByRole("heading", { name: "Sobre o Curso: Aprendendo a Contribuir na Prática" }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Como Você Participa do Mural" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Pronto para fazer sua primeira contribuição?" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Ver galeria de formados/ })).toHaveAttribute(
+      "href",
+      "/#alunos",
+    );
+
+    const navigation = screen.getByRole("navigation", { name: "Navegação principal" });
+    expect(within(navigation).getByRole("link", { name: "Sobre o Curso" })).toHaveAttribute(
+      "href",
+      "/sobre-curso",
     );
   });
 });
