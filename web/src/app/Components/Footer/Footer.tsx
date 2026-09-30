@@ -5,8 +5,8 @@ const pullRequestsUrl = `${repositoryUrl}/pulls`;
 
 const footerLinks = [
   { label: "Sobre o Curso", href: `${repositoryUrl}#readme` },
-  { label: "Quem Somos", href: "#alunos" },
-  { label: "Sobre o mini-curso", href: "#alunos" },
+  { label: "Quem Somos", href: "/quem-somos" },
+  { label: "Sobre o mini-curso", href: "/quem-somos#motivacao" },
 ];
 
 export function Footer() {
