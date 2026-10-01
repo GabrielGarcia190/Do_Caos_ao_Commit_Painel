@@ -24,6 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -41,6 +42,30 @@ jobs:
       - name: Run automated tests
         run: npm test
 
+      - name: Increment desktop patch version
+        id: desktop-version
+        run: |
+          $baseVersion = [version](node -p "require('./package.json').version")
+          $publishedVersions = git tag --list "desktop-v*.*.*" |
+            ForEach-Object { $_ -replace '^desktop-v', '' } |
+            Where-Object { $_ -match '^\d+\.\d+\.\d+$' } |
+            ForEach-Object { [version]$_ }
+
+          if ($publishedVersions) {
+            $latestVersion = $publishedVersions | Sort-Object -Descending | Select-Object -First 1
+            $major = $latestVersion.Major
+            $minor = $latestVersion.Minor
+            $patch = $latestVersion.Build + 1
+          } else {
+            $major = $baseVersion.Major
+            $minor = $baseVersion.Minor
+            $patch = $baseVersion.Build + 1
+          }
+
+          $version = "$major.$minor.$patch"
+          npm version $version --no-git-tag-version
+          "version=$version" >> $env:GITHUB_OUTPUT
+
       - name: Build Windows installer
         run: npm run desktop:build
         env:
@@ -49,8 +74,8 @@ jobs:
       - name: Publish installer on GitHub Releases
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: desktop-v${{ github.event.pull_request.number }}-${{ github.run_number }}
-          name: Mural Desktop — PR #${{ github.event.pull_request.number }}
+          tag_name: desktop-v${{ steps.desktop-version.outputs.version }}
+          name: Mural do Caos ao Commit v${{ steps.desktop-version.outputs.version }}
           target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
           body: |
             Instalador Windows do Mural do Caos ao Commit.
