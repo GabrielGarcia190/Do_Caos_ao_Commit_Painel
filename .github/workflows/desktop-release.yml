@@ -35,11 +35,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Download Electron runtime
+        run: node node_modules/electron/install.js
+
       - name: Run automated tests
         run: npm test
 
       - name: Build Windows installer
         run: npm run desktop:build
+        env:
+          PUBLISH_FOR_PULL_REQUEST: "false"
 
       - name: Publish installer on GitHub Releases
         uses: softprops/action-gh-release@v2
