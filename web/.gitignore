@@ -20,8 +20,9 @@
 
 # production
 /build
-/release/
-/desktop-verification/
+/release/**
+/release-check/**
+/desktop-verification/**
 
 # misc
 .DS_Store
