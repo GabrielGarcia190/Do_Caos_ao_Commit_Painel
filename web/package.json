@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm test && next build",
     "start": "next start",
     "desktop:dev": "concurrently -k \"cross-env NEXT_DIST_DIR=.next-desktop next dev --port 3210\" \"wait-on tcp:3210 && electron desktop/main.cjs\"",
-    "desktop:build": "next build && electron-builder --win nsis",
-    "desktop:dir": "next build && electron-builder --dir",
+    "desktop:build": "npm run build && electron-builder --win nsis",
+    "desktop:dir": "npm run build && electron-builder --dir",
     "test": "vitest run",
     "test:watch": "vitest"
   },
