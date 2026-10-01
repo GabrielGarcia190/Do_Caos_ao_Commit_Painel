@@ -1,13 +1,13 @@
 import type { LucideIcon } from "lucide-react";
 
-export interface HeroStatItem {
+export type  HeroStatItem = {
     icon: LucideIcon;
     title: string;
     subtitle: string;
 }
 
-export interface HeroYear {
+export type HeroYear = {
     label: string;
     value: string;
     count: number;
-}
+};

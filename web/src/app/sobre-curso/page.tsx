@@ -48,14 +48,14 @@ const steps = [
     title: "Branch & JSON",
     description:
       "Crie uma nova branch de funcionalidade e adicione seus dados (nome, bio, rede social) no arquivo JSON padronizado do mural.",
-    command: "data/alumni/seu-nome.json",
+    command: "web\\src\\data\\students.json",
   },
   {
     number: "3",
     title: "Pull Request & Review",
     description:
       "Abra um Pull Request descritivo no GitHub. Outras pessoas revisam as mudanças e ajudam a validar cada passo da colaboração.",
-    command: "PR: feat(alumni): seu nome",
+    command: "PR: feat(mural): seu nome",
   },
   {
     number: "4",

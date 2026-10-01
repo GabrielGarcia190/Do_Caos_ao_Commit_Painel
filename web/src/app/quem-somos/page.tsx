@@ -7,30 +7,19 @@ const repositoryUrl = "https://github.com/GabrielGarcia190/Do_Caos_ao_Commit_Pai
 
 const instructors = [
   {
-    name: "Rodrigo Fagundes",
-    role: "Software Engineer & Tech Lead",
+    name: "Gabriel Garcia",
+    role: "Desenvolvedor Full Stack",
     description:
       "Focado em boas práticas, arquitetura de software e na construção de produtos que geram impacto real.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85",
-    profileUrl: "https://github.com/",
+    imageUrl: "/Gabriel-Garcia.png",
+    profileUrl: "https://github.com/GabrielGarcia190",
   },
   {
-    name: "Amanda Vasconcelos",
-    role: "Senior Frontend Engineer",
+    name: "Pedro Masson",
+    role: "Desenvolvedor Full Stack",
     description:
-      "Especialista em experiências web modernas, acessibilidade e interfaces que aproximam pessoas da tecnologia.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85",
-    profileUrl: "https://github.com/",
-  },
-  {
-    name: "Carlos Silveira",
-    role: "DevOps & Cloud Specialist",
-    description:
-      "Apaixonado por infraestrutura, automação e por ajudar equipes a entregar software com confiança.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85",
+      "Focado em boas práticas, arquitetura de software e na construção de produtos que geram impacto real.",
+    imageUrl: "/Pedro-Masson.jpg",
     profileUrl: "https://github.com/",
   },
 ];
@@ -89,7 +78,7 @@ export default function QuemSomosPage() {
               </p>
             </div>
 
-            <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
               {instructors.map((instructor) => (
                 <li key={instructor.name}>
                   <article className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md dark:border-mural-border dark:bg-mural-card dark:shadow-none">
@@ -101,7 +90,7 @@ export default function QuemSomosPage() {
                         className="h-full w-full object-cover"
                       />
                       <span className="absolute right-3 top-3 rounded-sm border border-white/70 bg-white/95 px-2 py-1 text-[10px] font-medium text-slate-700 shadow-sm dark:border-mural-border-badge dark:bg-mural-badge-bg/95 dark:text-mural-text-badge">
-                        Instrutor · Mentor
+                        Palestrante
                       </span>
                     </div>
                     <div className="p-5">

@@ -1,10 +1,6 @@
-import type { HeroStatItem } from "./types";
+import { HeroStatItem } from "../MuralHeader/types";
 
-export function HeroStat({
-    icon: Icon,
-    title,
-    subtitle,
-}: HeroStatItem) {
+export function MuralHeaderInfo({ icon: Icon, title, subtitle, }: HeroStatItem) {
     return (
         <div className="flex min-h-18 w-full items-center rounded-md border border-slate-200 bg-white px-4 shadow-sm sm:w-68 dark:border-mural-border-strong dark:bg-mural-bg-panel/95 dark:shadow-[inset_0_1px_0_rgba(255,255,255,.03)]">
 

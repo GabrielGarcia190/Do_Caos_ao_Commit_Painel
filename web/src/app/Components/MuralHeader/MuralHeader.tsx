@@ -1,9 +1,9 @@
 import { GraduationCap } from "lucide-react";
-import { HeroStat } from "./HeroStat";
-import { YearFilter } from "./YearFilter";
+import { MuralHeaderInfo } from "../MuralHeaderInfo/MuralHeaderInfo";
+import { YearFilter } from "../YearFilter/YearFilter";
 import type { HeroStatItem, HeroYear } from "./types";
 
-interface Props {
+type MuralHeaderProps = {
     title: string;
     description: string;
     stats: HeroStatItem[];
@@ -13,7 +13,7 @@ interface Props {
     totalStudents: number;
 }
 
-export function MuralHero({
+export function MuralHeader({
     title,
     description,
     stats,
@@ -21,7 +21,7 @@ export function MuralHero({
     selectedYear,
     onYearChange,
     totalStudents,
-}: Props) {
+}: MuralHeaderProps) {
     return (
         <section className="relative overflow-hidden border-b border-slate-200 bg-slate-50 text-slate-900 dark:border-mural-border-dark dark:bg-mural-bg dark:text-white">
 
@@ -96,7 +96,7 @@ export function MuralHero({
                     <div id="metricas" className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap xl:w-auto xl:gap-4">
 
                         {stats.map((stat) => (
-                            <HeroStat
+                            <MuralHeaderInfo
                                 key={stat.subtitle}
                                 {...stat}
                             />

@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { GitPullRequest, Users } from "lucide-react";
 import type { Student } from "@/modules/students/domain/Student";
 import { Header } from "./Components/Header/Header";
-import { MuralHero } from "./Components/MuralHeader/Mural";
+import { MuralHeader } from "./Components/MuralHeader/MuralHeader";
 import { StudentCard } from "./Components/StudentCard/StudentCard";
 import { Footer } from "./Components/Footer/Footer";
 
@@ -79,7 +79,7 @@ export default function Home() {
     return (
         <div id="topo" className="flex min-h-screen w-full flex-col pt-24">
             <Header />
-            <MuralHero
+            <MuralHeader
                 title="Mural de Alunos"
                 description="Celebrando todos os estudantes que concluíram o mini-curso e contribuiram para o projeto."
                 totalStudents={students.length}

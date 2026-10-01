@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import type { ReactNode } from "react";
-import { Code2, UserRound } from "lucide-react";
+import {  UserRound } from "lucide-react";
 import type { Student } from "@/modules/students/domain/Student";
-import { InfoTag } from "../InfoTag/InfoTag";
+import { ProfileAction } from "../ProfileAction/ProfileAction";
 
 interface Props {
   student: Student;
@@ -60,13 +59,6 @@ export function StudentCard({ student }: Props) {
 
           <div className="flex shrink-0 items-center gap-1.5">
             <ProfileAction
-              href={student.codeUrl}
-              label={`Código de ${student.fullName}`}
-              disabledLabel="Link de código ainda não informado"
-            >
-              <Code2 aria-hidden="true" size={16} strokeWidth={1.8} />
-            </ProfileAction>
-            <ProfileAction
               href={student.profileUrl}
               label={`Perfil de ${student.fullName}`}
               disabledLabel="Link de perfil ainda não informado"
@@ -80,27 +72,3 @@ export function StudentCard({ student }: Props) {
   );
 }
 
-interface ProfileActionProps {
-  href?: string;
-  label: string;
-  disabledLabel: string;
-  children: ReactNode;
-}
-
-function ProfileAction({ href, label, disabledLabel, children }: ProfileActionProps) {
-  const className = "flex size-8 items-center justify-center rounded-[5px] border border-slate-200 bg-slate-50 text-slate-600 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 dark:border-mural-border dark:bg-mural-control-bg-strong dark:text-mural-text-muted dark:hover:border-mural-border-control-strong-hover dark:hover:bg-mural-control-hover-bg dark:hover:text-mural-text-hover";
-
-  if (!href) {
-    return (
-      <span aria-label={disabledLabel} title={disabledLabel} className={`${className} cursor-not-allowed opacity-75`}>
-        {children}
-      </span>
-    );
-  }
-
-  return (
-    <a href={href} target="_blank" rel="noreferrer" aria-label={label} title={label} className={className}>
-      {children}
-    </a>
-  );
-}

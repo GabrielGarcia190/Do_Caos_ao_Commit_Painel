@@ -1,4 +1,4 @@
-import studentsData from "./data/students.json";
+import studentsData from "@/data/students.json";
 import type { Student } from "../domain/Student";
 import type { StudentRepository } from "../domain/StudentRepository";
 

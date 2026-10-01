@@ -1,17 +1,13 @@
 import clsx from "clsx";
-import type { HeroYear } from "./types";
+import { HeroYear } from "../MuralHeader/types";
 
-interface Props {
+type YearFilterProps = {
     years: HeroYear[];
     selected: string;
     onSelect(value: string): void;
 }
 
-export function YearFilter({
-    years,
-    selected,
-    onSelect,
-}: Props) {
+export function YearFilter({ years, selected, onSelect, }: YearFilterProps) {
     return (
         <div className="flex flex-wrap gap-2">
 

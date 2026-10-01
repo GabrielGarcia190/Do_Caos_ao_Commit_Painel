@@ -1,12 +1,12 @@
 import { ArrowUpRight, GitPullRequest, SquareTerminal } from "lucide-react";
+import { InfoTag } from "../InfoTag/InfoTag";
 
 const repositoryUrl = "https://github.com/GabrielGarcia190/Do_Caos_ao_Commit_Painel";
 const pullRequestsUrl = `${repositoryUrl}/pulls`;
 
 const footerLinks = [
-  { label: "Sobre o Curso", href: "/sobre-curso" },
+  { label: "Sobre o mini-curso", href: "/sobre-curso" },
   { label: "Quem Somos", href: "/quem-somos" },
-  { label: "Sobre o mini-curso", href: "/quem-somos#motivacao" },
 ];
 
 export function Footer() {
@@ -54,8 +54,8 @@ export function Footer() {
             <a href="#topo" className="font-plus-jakarta text-sm font-semibold text-slate-900 hover:text-blue-700 dark:text-slate-100 dark:hover:text-blue-300">
               Mural do Caos ao Commit
             </a>
-            <span className="mx-2 text-slate-400 dark:text-slate-600">·</span>
-            <span className="text-xs text-slate-500 dark:text-slate-400">Registro comemorativo</span>
+            <span className="mx-1 text-slate-400 dark:text-slate-600">·</span>
+            <InfoTag title="Registro Comemorativo"/>
             <p className="mt-2 text-xs leading-5 text-slate-600 dark:text-slate-400">
               Celebrando a excelência profissional, aquelas que participaram do mini-curso e contribuíram para o projeto.
             </p>
