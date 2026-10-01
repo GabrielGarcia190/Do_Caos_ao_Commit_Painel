@@ -9,8 +9,7 @@ export function Header() {
     const navigationLinks = [
         { title: "Alunos", href: "/#alunos", selected: pathname === "/" },
         { title: "Sobre o Curso", href: "/sobre-curso", selected: pathname === "/sobre-curso" },
-        { title: "Quem Somos", href: "/quem-somos", selected: pathname === "/quem-somos" },
-        { title: "Estatísticas", href: "/#metricas", selected: false },
+        { title: "Quem Somos", href: "/quem-somos", selected: pathname === "/quem-somos" }
     ];
 
     return (

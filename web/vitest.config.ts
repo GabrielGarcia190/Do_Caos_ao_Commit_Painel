@@ -13,5 +13,13 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./vitest.setup.ts"],
     clearMocks: true,
+    exclude: [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/.next-desktop/**",
+      "**/release/**",
+      "**/release-check/**",
+      "**/desktop-verification/**",
+    ],
   },
 });

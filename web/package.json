@@ -42,12 +42,14 @@
     "appId": "com.caosao.commit.mural",
     "productName": "Mural do Caos ao Commit",
     "asar": false,
+    "electronDist": "node_modules/electron/dist",
     "files": [
       "desktop/**/*",
       ".next/**/*",
       "public/**/*",
       "src/**/*",
-      "node_modules/**/*",
+      "!src/**/*.test.*",
+      "!src/**/test/**",
       "next.config.ts",
       "package.json"
     ],
