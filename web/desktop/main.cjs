@@ -1,5 +1,6 @@
 const { app, BrowserWindow, shell, dialog } = require("electron");
 const http = require("node:http");
+const path = require("node:path");
 const next = require("next");
 
 const isDevelopment = !app.isPackaged;
@@ -46,6 +47,7 @@ function createWindow() {
     show: false,
     autoHideMenuBar: true,
     backgroundColor: "#081624",
+    icon: path.join(__dirname, "../public/AppIcon.ico"),
     webPreferences: {
       contextIsolation: true,
       nodeIntegration: false,
