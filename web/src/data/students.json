@@ -6,5 +6,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/GabrielGarcia190.png",
     "profileUrl": "https://github.com/GabrielGarcia190"
+  },
+  {
+    "id": "2",
+    "fullName": "Vinicius Pires",
+    "occupation": "Desenvolvedora de Software",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
+    "profileUrl": "https://github.com/ViniciusPiresAntolin"
   }
 ]
