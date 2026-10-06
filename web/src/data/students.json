@@ -2,7 +2,7 @@
   {
     "id": "1",
     "fullName": "Gabriel Garcia",
-    "occupation": "Desenvolvedora de Software",
+    "occupation": "Desenvolvedor de Software",
     "completionYear": 2026,
     "imageUrl": "https://github.com/GabrielGarcia190.png",
     "profileUrl": "https://github.com/GabrielGarcia190"
@@ -10,14 +10,14 @@
   {
     "id": "2",
     "fullName": "Vinicius Pires",
-    "occupation": "Desenvolvedora de Software",
+    "occupation": "Desenvolvedor de Software",
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
   },
 
   {
-    "id": "3",
+    "id": "88",
     "fullName": "Ryan Mazalli Silva",
     "occupation": "Desempregado Profissional",
     "completionYear": 2026,
