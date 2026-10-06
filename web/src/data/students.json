@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "2",
+    "fullName": "Thulio Santos",
+    "occupation": "Estudante",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/thuliosdcosta-arch.png",
+    "profileUrl": "https://github.com/thuliosdcosta-arch"
   }
 ]
