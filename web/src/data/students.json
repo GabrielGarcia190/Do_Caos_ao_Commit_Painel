@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  { 
+    "id": "3",
+    "fullName": "Pedro Henrique",
+    "occupation": "Estudante de Desenvolvimento de Sistemas",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/p3dru20134-png.png",
+    "profileUrl": "https://github.com/p3dru20134-png"
   }
 ]
