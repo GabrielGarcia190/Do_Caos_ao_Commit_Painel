@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Paulo Alves Maciel Cabral",
+    "occupation": "Aluno da etec",
+    "completionYear": 2028,
+    "imageUrl": "https://github.com/paulotapioca.png",
+    "profileUrl": "https://github.com/paulotapioca"
   }
 ]
