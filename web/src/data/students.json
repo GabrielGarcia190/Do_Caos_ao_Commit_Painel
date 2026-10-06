@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Debora Martin",
+    "occupation": "Aluna do DS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/debora812.png",
+    "profileUrl": "https://github.com/debora812"
   }
 ]
