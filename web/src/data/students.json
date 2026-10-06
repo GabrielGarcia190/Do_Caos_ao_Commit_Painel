@@ -14,5 +14,14 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  { 
+    "id": "3",
+    "fullName": "André",
+    "occupation": "vagabundo",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/andrelimdo.png",
+    "profileUrl": "https://github.com/andrelimdo"
   }
+  
 ]
