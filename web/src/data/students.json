@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Guilherme Baldan",
+    "occupation": "Desenvolvedora de Software",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Psy-GB.png",
+    "profileUrl": "https://github.com/Psy-GB"
   }
 ]
