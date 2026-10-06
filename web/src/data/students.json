@@ -14,5 +14,14 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id":"3",
+    "fullName": "Heitor Massuiua",
+    "occupation": "Kurt Cobain do GTA",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/DVal3ri0000.png",
+    "profileUrl": "https://pt.wikipedia.org/wiki/Suic%C3%ADdio_de_Kurt_Cobain"
   }
+
 ]
