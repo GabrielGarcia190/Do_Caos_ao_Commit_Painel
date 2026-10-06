@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Murilo da Silva Liette",
+    "occupation": "Estudante",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/liettemurilo-ui.png",
+    "profileUrl": "https://github.com/liettemurilo-ui"
   }
 ]
