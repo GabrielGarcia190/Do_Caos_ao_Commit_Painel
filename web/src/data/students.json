@@ -2,21 +2,77 @@
   {
     "id": "1",
     "fullName": "Gabriel Garcia",
-    "occupation": "Desenvolvedora de Software",
+    "occupation": "Desenvolvedor de Software",
     "completionYear": 2026,
     "imageUrl": "https://github.com/GabrielGarcia190.png",
     "profileUrl": "https://github.com/GabrielGarcia190"
   },
   {
     "id": "2",
-    "fullName": "Vinicius Pires",
-    "occupation": "Desenvolvedora de Software",
+    "fullName": "Vinicius Pires", 
+    "occupation": "Desenvolvedor de Software",
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
   },
   {
     "id": "3",
+    "fullName": "Marina Viana",
+    "occupation": "Aluna",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/marinafviana.png",
+    "profileUrl": "https://github.com/marinafviana"
+  },
+  {
+    "id": "4",
+    "fullName": "Pedro Henkujo",
+    "occupation": "Aluno da ETEC",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/pedrohenkujo.png",
+    "profileUrl": "https://github.com/pedrohenkujo"
+  },
+    {
+    "id": "5",
+    "fullName": "Matheus son 67",
+    "occupation": "son",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/matheusson67.png",
+    "profileUrl": "https://github.com/matheusson67"
+  },
+  {
+    "id": "6",
+    "fullName": "Debora Martin",
+    "occupation": "Aluna do DS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/debora812.png",
+    "profileUrl": "https://github.com/debora812"
+  },
+  {
+    "id": "7",
+    "fullName": "Paulo Alves Maciel Cabral",
+    "occupation": "Aluno da etec",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/paulotapioca.png",
+    "profileUrl": "https://github.com/paulotapioca"
+  },
+  {
+    "id": "8",
+    "fullName": "Leonardo Hedras",
+    "occupation": "Aluno Desenvolvimento de Sistemas 1 ano Etec",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/dygokui3-a11y.png",
+    "profileUrl": "https://github.com/dygokui3-a11y"
+  },
+  {
+    "id": "9",
+    "fullName": "Guilherme Baldan",
+    "occupation": "Desenvolvedora de Software",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Psy-GB.png",
+    "profileUrl": "https://github.com/Psy-GB"
+   },
+  {
+    "id": "10",
     "fullName": "Victor Watanabe",
     "occupation": "Aluno da etec",
     "completionYear": 2026,
