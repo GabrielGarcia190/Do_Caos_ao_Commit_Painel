@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "fullName": "Vinicius Pires", 
+    "fullName": "Vinicius Pires",
     "occupation": "Desenvolvedor de Software",
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
@@ -31,7 +31,7 @@
     "imageUrl": "https://github.com/pedrohenkujo.png",
     "profileUrl": "https://github.com/pedrohenkujo"
   },
-    {
+  {
     "id": "5",
     "fullName": "Matheus son 67",
     "occupation": "son",
@@ -70,7 +70,7 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Psy-GB.png",
     "profileUrl": "https://github.com/Psy-GB"
-   },
+  },
   {
     "id": "10",
     "fullName": "Victor Watanabe",
@@ -79,7 +79,7 @@
     "imageUrl": "https://github.com/VictorWatanabe.png",
     "profileUrl": "https://github.com/VictorWatanabe"
   },
-  { 
+  {
     "id": "11",
     "fullName": "Pedro Henrique",
     "occupation": "Estudante de Desenvolvimento de Sistemas",
@@ -87,7 +87,7 @@
     "imageUrl": "https://github.com/p3dru20134-png.png",
     "profileUrl": "https://github.com/p3dru20134-png"
   },
-   {
+  {
     "id": "12",
     "fullName": "Ryhan Marcos",
     "occupation": "Aluno ds",
@@ -127,7 +127,7 @@
     "imageUrl": "https://github.com/thuliosdcosta-arch.png",
     "profileUrl": "https://github.com/thuliosdcosta-arch"
   },
-  { 
+  {
     "id": "15",
     "fullName": "André",
     "occupation": "vagabundo",
@@ -142,5 +142,21 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/marinafviana.png",
     "profileUrl": "https://github.com/marinafviana"
+  },
+  {
+    "id": "16",
+    "fullName": "Felipe Cavichia",
+    "occupation": "Estudante",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/felipeCav-dev.png",
+    "profileUrl": "https://github.com/felipeCav-dev"
+  },
+  {
+    "id": "17",
+    "fullName": "Eros Dalécio",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Eros-TI.png",
+    "profileUrl": "https://github.com/Eros-TI"
   }
 ]
