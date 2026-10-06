@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Victor Watanabe",
+    "occupation": "Aluno da etec",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/VictorWatanabe.png",
+    "profileUrl": "https://github.com/VictorWatanabe"
   }
 ]
