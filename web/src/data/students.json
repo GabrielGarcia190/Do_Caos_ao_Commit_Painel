@@ -14,5 +14,14 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+
+    {
+    "id": "Eros",
+    "fullName": "Eros Dalécio",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Eros-TI.png",
+    "profileUrl": "https://github.com/Eros-TI"
   }
 ]
