@@ -14,5 +14,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/ViniciusPiresAntolin.png",
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
+  },
+  {
+    "id": "3",
+    "fullName": "Matheus son 67",
+    "occupation": "son",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/matheusson67.png",
+    "profileUrl": "https://github.com/matheusson67"
   }
 ]
