@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+    {
+    "id": "16",
+    "fullName": "Nicolas",
+    "occupation": "Piloto da BMW",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/NicolasSantos01-Nps.png",
+    "profileUrl": "https://github.com/NicolasSantos01-Nps"
   }
 ]
