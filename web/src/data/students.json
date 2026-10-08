@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+    {
+    "id": "18",
+    "fullName": "Arthur",
+    "occupation": "Estudante de Desenvolvimento de Sistemas",
+    "completionYear": 2026,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FMbruR8w9fi0__qO718Dl5XrqhOc0QcLslBmoT9_GA&s.png",
+    "profileUrl": "https://github.com/arthurhscandido"
   }
 ]
