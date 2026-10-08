@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+  {
+    "id": "18",
+    "fullName": "Lucas Cruz",
+    "occupation": "Dev",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/lucasrcruz7.png",
+    "profileUrl": "https://github.com/lucasrcruz7"
   }
 ]
