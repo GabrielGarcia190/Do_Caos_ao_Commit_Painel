@@ -159,8 +159,16 @@
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
   },
+  {
+    "id": "18",
+    "fullName": "Noah Dourado",
+    "occupation": "AlunoDS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Likeadragon88.png",
+    "profileUrl": "https://github.com/Likeadragon88"
+  },
     {
-    "id": "17",
+    "id": "19",
     "fullName": "Eduardo Miguel Medeiros",
     "occupation": "Estágiario da FATEC",
     "completionYear": 2026,
