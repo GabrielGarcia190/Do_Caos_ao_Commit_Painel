@@ -16,6 +16,14 @@
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
   },
   {
+    "id": "100",
+    "fullName": "Michel Feres",
+    "occupation": "Estudante - Fatec Jales",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/michel-feres.png",
+    "profileUrl": "https://github.com/michel-feres"
+  },
+  {
     "id": "3",
     "fullName": "Marina Viana",
     "occupation": "Aluna",
