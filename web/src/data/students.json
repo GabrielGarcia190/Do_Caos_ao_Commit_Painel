@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+  {
+    "id": "18",
+    "fullName": "dino",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/diegogasparino.png",
+    "profileUrl": "https://github.com/diegogasparino"
   }
 ]
