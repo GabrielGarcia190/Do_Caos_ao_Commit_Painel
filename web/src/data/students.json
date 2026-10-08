@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+    {
+    "id": "17",
+    "fullName": "Eduardo Miguel Medeiros",
+    "occupation": "Estágiario da FATEC",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/medeirosduzz.png",
+    "profileUrl": "https://github.com/medeirosduzz"
   }
 ]
