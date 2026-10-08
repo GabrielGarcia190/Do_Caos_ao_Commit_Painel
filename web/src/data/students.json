@@ -158,5 +158,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+  {
+    "id": "6969",
+    "fullName": "Luan Fazio Prete",
+    "occupation": "Aluno Fatec ADS",
+    "completionYear": 2027,
+    "imageUrl": "https://github.com/LuanFazio.png",
+    "profileUrl": "https://github.com/LuanFazio"
   }
 ]
