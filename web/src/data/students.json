@@ -158,5 +158,21 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
+  },
+  {
+    "id": "17",
+    "fullName": "Eros Dalécio",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Eros-TI.png",
+    "profileUrl": "https://github.com/Eros-TI"
+  },
+  {
+    "id": "17",
+    "fullName": "Guilherme",
+    "occupation": "Piloto da academia Red Bull",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Guibassi15.png",
+    "profileUrl": "https://github.com/Guibassi15"
   }
 ]
