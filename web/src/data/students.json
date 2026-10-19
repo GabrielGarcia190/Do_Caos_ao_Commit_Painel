@@ -16,14 +16,6 @@
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
   },
   {
-    "id": "100",
-    "fullName": "Michel Feres",
-    "occupation": "Estudante - Fatec Jales",
-    "completionYear": 2026,
-    "imageUrl": "https://github.com/michel-feres.png",
-    "profileUrl": "https://github.com/michel-feres"
-  },
-  {
     "id": "3",
     "fullName": "Marina Viana",
     "occupation": "Aluna",
@@ -183,7 +175,7 @@
     "imageUrl": "https://github.com/PlaneOneS2.png",
     "profileUrl": "https://github.com/PlaneOneS2"
   },
-    {
+  {
     "id": "19",
     "fullName": "Noah Dourado",
     "occupation": "AlunoDS",
@@ -294,7 +286,7 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/CWMD17.png",
     "profileUrl": "https://github.com/CWMD17"
-    },
+  },
   {
     "id": "30",
     "fullName": "Hiago Alexandre de Jesus Santos",
@@ -310,5 +302,29 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/viviak24.png",
     "profileUrl": "https://github.com/viviak24"
+  },
+  {
+    "id": "100",
+    "fullName": "Michel Feres",
+    "occupation": "Estudante - Fatec Jales",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/michel-feres.png",
+    "profileUrl": "https://github.com/michel-feres"
+  },
+  {
+    "id": "31",
+    "fullName": "Guilherme",
+    "occupation": "Piloto da academia Red Bull",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Guibassi15.png",
+    "profileUrl": "https://github.com/Guibassi15"
+  },
+   {
+    "id": "32",
+    "fullName": "Guilherme Yudi Arroghanti",
+    "occupation": "Estudado",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Guilherme-Yudi.png",
+    "profileUrl": "https://github.com/Guilherme-Yudi"
   }
 ]
