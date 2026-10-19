@@ -16,6 +16,14 @@
     "profileUrl": "https://github.com/ViniciusPiresAntolin"
   },
   {
+    "id": "100",
+    "fullName": "Michel Feres",
+    "occupation": "Estudante - Fatec Jales",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/michel-feres.png",
+    "profileUrl": "https://github.com/michel-feres"
+  },
+  {
     "id": "3",
     "fullName": "Marina Viana",
     "occupation": "Aluna",
@@ -159,8 +167,136 @@
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
   },
-   {
-    "id": "15",
+  {
+    "id": "18",
+    "fullName": "Eduardo Miguel Medeiros",
+    "occupation": "Estágiario da FATEC",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/medeirosduzz.png",
+    "profileUrl": "https://github.com/medeirosduzz"
+  },
+  {
+    "id": "6742",
+    "fullName": "Matheus Ferreira",
+    "occupation": "Melhor Plantonista do N2",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/PlaneOneS2.png",
+    "profileUrl": "https://github.com/PlaneOneS2"
+  },
+    {
+    "id": "19",
+    "fullName": "Noah Dourado",
+    "occupation": "AlunoDS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Likeadragon88.png",
+    "profileUrl": "https://github.com/Likeadragon88"
+  },
+  {
+    "id": "20",
+    "fullName": "Dino",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/diegogasparino.png",
+    "profileUrl": "https://github.com/diegogasparino"
+  },
+  {
+    "id": "21",
+    "fullName": "Vinicius Passos",
+    "occupation": "Estudante de Desenvolvimento de Sistemas",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Vinicoutzzz.png",
+    "profileUrl": "https://github.com/Vinicoutzzz"
+  },
+  {
+    "id": "6969",
+    "fullName": "Luan Fazio Prete",
+    "occupation": "Aluno Fatec ADS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/LuanFazio.png",
+    "profileUrl": "https://github.com/LuanFazio"
+  },
+  {
+    "id": "22",
+    "fullName": "Kauã Ribeiro",
+    "occupation": "Portador do auto desvivamento☠",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/kauaribeiro201022-byte.png",
+    "profileUrl": "https://github.com/kauaribeiro201022-byte"
+  },
+  {
+    "id": "307",
+    "fullName": "Matheus Campoio",
+    "occupation": "Universitário",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/matheusantcampoio-07.png",
+    "profileUrl": "https://github.com/matheusantcampoio-07"
+  },
+  {
+    "id": "23",
+    "fullName": "Nicolas",
+    "occupation": "Piloto da BMW",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/NicolasSantos01-Nps.png",
+    "profileUrl": "https://github.com/NicolasSantos01-Nps"
+  },
+  {
+    "id": "8080",
+    "fullName": "Carlos Yamada",
+    "occupation": "TI na pref de jales",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/yuitiyamada4-ui.png",
+    "profileUrl": "https://github.com/yuitiyamada4-ui"
+  },
+  {
+    "id": "24",
+    "fullName": "Isac Vaqueiro",
+    "occupation": "AVERIGUADOR DE RESENHAS 👀👀",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/isacvaqueiro1623.png",
+    "profileUrl": "https://github.com/isacvaqueiro1623"
+  },
+  {
+    "id": "25",
+    "fullName": "Rafael  Kühn",
+    "occupation": "Estudante 1°Ds Ams Etec",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/ScriptsHubs2.png",
+    "profileUrl": "https://github.com/ScriptsHubs2"
+  },
+  {
+    "id": "26",
+    "fullName": "Nicolas",
+    "occupation": "Piloto da BMW",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/NicolasSantos01-Nps.png",
+    "profileUrl": "https://github.com/NicolasSantos01-Nps"
+  },
+  {
+    "id": "27",
+    "fullName": "Lázaro Barbosa",
+    "occupation": "Estudante",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/VictorNovais606.png",
+    "profileUrl": "https://github.com/VictorNovais606"
+  },
+  {
+    "id": "28",
+    "fullName": "Arthur",
+    "occupation": "Estudante de Desenvolvimento de Sistemas",
+    "completionYear": 2026,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FMbruR8w9fi0__qO718Dl5XrqhOc0QcLslBmoT9_GA&s.png",
+    "profileUrl": "https://github.com/arthurhscandido"
+  },
+  {
+    "id": "29",
+    "fullName": "Claudio Dantas",
+    "occupation": "Aluno",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/CWMD17.png",
+    "profileUrl": "https://github.com/CWMD17"
+    },
+  {
+    "id": "30",
     "fullName": "Hiago Alexandre de Jesus Santos",
     "occupation": "Técnico de Suporte",
     "completionYear": 2026,
