@@ -160,10 +160,50 @@
     "profileUrl": "https://github.com/Eros-TI"
   },
   {
+    "id": "18",
+    "fullName": "Eduardo Miguel Medeiros",
+    "occupation": "Estágiario da FATEC",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/medeirosduzz.png",
+    "profileUrl": "https://github.com/medeirosduzz"
+  },
+  {
+    "id": "6742",
+    "fullName": "Matheus Ferreira",
+    "occupation": "Melhor Plantonista do N2",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/PlaneOneS2.png",
+    "profileUrl": "https://github.com/PlaneOneS2"
+  },
+    {
+    "id": "19",
+    "fullName": "Noah Dourado",
+    "occupation": "AlunoDS",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Likeadragon88.png",
+    "profileUrl": "https://github.com/Likeadragon88"
+  },
+  {
+    "id": "20",
+    "fullName": "Dino",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/diegogasparino.png",
+    "profileUrl": "https://github.com/diegogasparino"
+  },
+  {
+    "id": "21",
+    "fullName": "Vinicius Passos",
+    "occupation": "Estudante de Desenvolvimento de Sistemas",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Vinicoutzzz.png",
+    "profileUrl": "https://github.com/Vinicoutzzz"
+  },
+  {
     "id": "6969",
     "fullName": "Luan Fazio Prete",
     "occupation": "Aluno Fatec ADS",
-    "completionYear": 2027,
+    "completionYear": 2026,
     "imageUrl": "https://github.com/LuanFazio.png",
     "profileUrl": "https://github.com/LuanFazio"
   }
