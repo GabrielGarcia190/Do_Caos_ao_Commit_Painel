@@ -167,7 +167,7 @@
     "imageUrl": "https://github.com/Eros-TI.png",
     "profileUrl": "https://github.com/Eros-TI"
   },
-   {
+  {
     "id": "18",
     "fullName": "Eduardo Miguel Medeiros",
     "occupation": "Estágiario da FATEC",
@@ -287,12 +287,20 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FMbruR8w9fi0__qO718Dl5XrqhOc0QcLslBmoT9_GA&s.png",
     "profileUrl": "https://github.com/arthurhscandido"
   },
-    {
+  {
     "id": "29",
     "fullName": "Claudio Dantas",
     "occupation": "Aluno",
     "completionYear": 2026,
     "imageUrl": "https://github.com/CWMD17.png",
     "profileUrl": "https://github.com/CWMD17"
-    }
+    },
+  {
+    "id": "30",
+    "fullName": "Hiago Alexandre de Jesus Santos",
+    "occupation": "Técnico de Suporte",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/hiagoalexandre462-crypto.png",
+    "profileUrl": "https://github.com/hiagoalexandre462-crypto"
+  }
 ]
