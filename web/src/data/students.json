@@ -326,5 +326,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Guilherme-Yudi.png",
     "profileUrl": "https://github.com/Guilherme-Yudi"
+  },
+  {
+    "id": "32",
+    "fullName": "Rodrigo Lucon Xavier",
+    "occupation": "Estudando",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/RodrigoLucon.png",
+    "profileUrl": "https://github.com/RodrigoLucon"
   }
 ]
