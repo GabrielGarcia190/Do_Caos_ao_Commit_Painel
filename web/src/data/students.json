@@ -326,5 +326,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Guilherme-Yudi.png",
     "profileUrl": "https://github.com/Guilherme-Yudi"
+  },
+  {
+    "id": "33",
+    "fullName": "Alexandre Castro de Andrade",
+    "occupation": "Estudante - FEF S.I",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/XandyDev28.png",
+    "profileUrl": "https://github.com/XandyDev28"
   }
 ]
