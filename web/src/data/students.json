@@ -342,5 +342,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/XandyDev28.png",
     "profileUrl": "https://github.com/XandyDev28"
+  },
+  {
+    "id": "34",
+    "fullName": "Daniel Eugênio",
+    "occupation": "Aluno - IFSP Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/LCB-Daniel.png",
+    "profileUrl": "https://github.com/LCB-Daniel"
   }
 ]
