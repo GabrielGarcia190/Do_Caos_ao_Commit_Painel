@@ -342,5 +342,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/XandyDev28.png",
     "profileUrl": "https://github.com/XandyDev28"
+  },
+  {
+    "id": "34",
+    "fullName": "Gabriel Henrique",
+    "occupation": "Aluno IFSP-VTP",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/gabrielhen65.png",
+    "profileUrl": "https://github.com/gabrielhen65"
   }
 ]
