@@ -342,5 +342,15 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/XandyDev28.png",
     "profileUrl": "https://github.com/XandyDev28"
+  } ,
+
+  {
+    "id": "34",
+    "fullName": "Larissa Chagas Facco",
+    "occupation": "Estudante - Instituto Federal - Campus Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/larissachagasfacco08.png",
+    "profileUrl": "https://github.com/larissachagasfacco08"
   }
+  
 ]
