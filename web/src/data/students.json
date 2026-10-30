@@ -328,7 +328,39 @@
     "profileUrl": "https://github.com/Guilherme-Yudi"
   },
   {
-    "id": "32",
+    "id": "39",
+    "fullName": "Vitor Hugo de Souza Almeida",
+    "occupation": "Estudando - Etec Fernandópolis",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/VitorHugoSAlmeida.png",
+    "profileUrl": "https://github.com/VitorHugoSAlmeida"
+  },
+  {
+    "id": "33",
+    "fullName": "Alexandre Castro de Andrade",
+    "occupation": "Estudante - FEF S.I",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/XandyDev28.png",
+    "profileUrl": "https://github.com/XandyDev28"
+  },
+  {
+    "id": "34",
+    "fullName": "Larissa Chagas Facco",
+    "occupation": "Estudante - Instituto Federal - Campus Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/larissachagasfacco08.png",
+    "profileUrl": "https://github.com/larissachagasfacco08"
+  },
+  {
+    "id": "85",
+    "fullName": "Isabella de Lima Silva",
+    "occupation": "Estudante - IFSP Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Lilyizyou.png",
+    "profileUrl": "https://github.com/Lilyizyou"
+  },
+  {
+    "id": "35",
     "fullName": "Rodrigo Lucon Xavier",
     "occupation": "Estudando",
     "completionYear": 2026,
