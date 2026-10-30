@@ -342,7 +342,7 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/XandyDev28.png",
     "profileUrl": "https://github.com/XandyDev28"
-  },
+  }, 
   {
     "id": "34",
     "fullName": "Larissa Chagas Facco",
@@ -390,5 +390,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/zHunt3rz.png",
     "profileUrl": "https://github.com/zHunt3rz"
-  }
+  },
+  {
+    "id": "38",
+    "fullName": "Rássilla Santos da Luz",
+    "occupation": "Estudante - IFSP T.I",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/rassilla.png",
+    "profileUrl": "https://github.com/rassilla"
+  },
 ]
