@@ -400,12 +400,19 @@
     "profileUrl": "https://github.com/rassilla"
   },
   {
-    "id": "34",
+    "id": "39",
     "fullName": "Gabriel Henrique",
     "occupation": "Aluno IFSP-VTP",
     "completionYear": 2026,
     "imageUrl": "https://github.com/gabrielhen65.png",
     "profileUrl": "https://github.com/gabrielhen65"
+  },
+  {
+    "id": "40",
+    "fullName": "Ana Laura Berti da Silva",
+    "occupation": "Estudante - Informática IFSP campus Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/analauraberti.png",
+    "profileUrl": "https://github.com/analauraberti"
   }
-]
 ]
