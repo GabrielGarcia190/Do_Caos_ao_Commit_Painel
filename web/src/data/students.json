@@ -358,5 +358,13 @@
     "completionYear": 2026,
     "imageUrl": "https://github.com/Lilyizyou.png",
     "profileUrl": "https://github.com/Lilyizyou"
+  },
+  {
+    "id": "35",
+    "fullName": "Rodrigo Lucon Xavier",
+    "occupation": "Estudando",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/RodrigoLucon.png",
+    "profileUrl": "https://github.com/RodrigoLucon"
   }
 ]
