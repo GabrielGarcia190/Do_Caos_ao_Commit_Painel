@@ -345,10 +345,41 @@
   },
   {
     "id": "34",
+    "fullName": "Larissa Chagas Facco",
+    "occupation": "Estudante - Instituto Federal - Campus Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/larissachagasfacco08.png",
+    "profileUrl": "https://github.com/larissachagasfacco08"
+  },
+  {
+    "id": "85",
+    "fullName": "Isabella de Lima Silva",
+    "occupation": "Estudante - IFSP Votuporanga",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Lilyizyou.png",
+    "profileUrl": "https://github.com/Lilyizyou"
+  },
+  {
+    "id": "35",
+    "fullName": "Rodrigo Lucon Xavier",
+    "occupation": "Estudando",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/RodrigoLucon.png",
+    "profileUrl": "https://github.com/RodrigoLucon"
+  },
+  {
+    "id": "36",
+    "fullName": "Pame",
+    "occupation": "Estudante - IFSP votu",
+    "completionYear": 2026,
+    "imageUrl": "https://github.com/Pame1214.png",
+    "profileUrl": "https://github.com/Pame1214"
+  },
+  {
+    "id": "37",
     "fullName": "Daniel Eugênio",
     "occupation": "Aluno - IFSP Votuporanga",
     "completionYear": 2026,
     "imageUrl": "https://github.com/LCB-Daniel.png",
     "profileUrl": "https://github.com/LCB-Daniel"
-  }
 ]
